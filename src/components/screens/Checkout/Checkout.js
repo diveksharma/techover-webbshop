@@ -1,7 +1,13 @@
 import React from 'react';
+import Navbar from '../../Navbar/Navbar';
 
 const Checkout = (props) => {
-	return <h1>Checkout</h1>;
+	return (
+		<div>
+			<Navbar/>
+			<h1>Checkout</h1>
+		</div>
+	);
 };
 
 export default Checkout;
